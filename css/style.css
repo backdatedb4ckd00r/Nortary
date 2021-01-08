@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common CSS end*/
+/* HEADER css start*/
+header {
+    margin-top: 15px;
+}
+
+.container {
+    width: 80%;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    /*border: 1px solid red;*/
+    width: 20%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 75%;
+    float: right;
+    /*border: 1px solid red;*/
+    margin-top: 24px;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+
+/* 
+	font-family: 
+	font-size:
+	font-weight:
+	color:
+
+ */
+
+.menu ul li a {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #535D69;
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    transition: .3s;
+}
+
+/* psudo list child selector */
+.menu ul li:last-child a {
+    padding-right: 0px;
+}
+
+/* psudo hover selector */
+.menu ul li a:hover {
+    color: #BD233F;
+}
+
+/*header css end*/
+/* banner selector start*/
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-position: top center;
+}
+
+/*
+	background-image
+	background-repeat
+	background-size
+	background-position
+*/
+
+.b_content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    /*border: 1px solid white;*/
+}
+
+.b_content h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+    /*font-weight: 700;*/
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    /*line-height: 70px;*/
+}
+
+.b_content p {
+    font-family: sans-serif;
+    font-size: 18px;
+    /*font-weight: 400;*/
+    color: white;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.b_content button {
+    width: 260px;
+    min-height: 50px;
+    background-color: #C2233F;
+    border: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    /*font-weight: 400;*/
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.b_content button:focus {
+    outline: 0;
+}
+
+/* banner selector end*/
+
+/*how it works start*/
+.works {
+    padding: 100px;
+}
+
+.first_part {
+    width: 70%;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.first_part h1 {
+    font-size: 29px;
+    color: #1A1A1A;
+    margin: 0 0 30px;
+}
+
+.first_part p {
+    font-size: 17px;
+    color: #535D69;
+    line-height: 20px;
+    margin: 0;
+}
+
+.second_part {
+    overflow: hidden;
+}
+
+.single_item {
+    float: left;
+    width: 23%;
+    /*border: 1px solid black;*/
+    text-align: center;
+    margin: 0 1%;
+    padding: 0 4.16%;
+}
+
+.single_item img {
+    width: 40%;
+}
+
+.single_item p {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+
+/*how it works end*/
+/*Learn how to proccess start*/
+.proccess {
+    overflow: hidden;
+}
+
+.proccess_one {
+    width: 60%;
+    float: left;
+}
+
+.proccess_one h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 0;
+    word-spacing: 2px;
+}
+
+.pera {
+    width: 85%;
+    /*border: 1px solid blue;*/
+    padding-bottom: 30px;
+}
+
+.pera p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #535C6B;
+    word-spacing: 1.5px;
+    margin: 0;
+}
+
+.proccess_one button {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    width: 190px;
+    min-height: 40px;
+    background-color: #BD2440;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 8px;
+}
+
+.proccess_one button:hover {
+    color: white;
+    background-color: #515A69;
+}
+
+.proccess_one button:focus {
+    outline: 0;
+}
+
+.proccess_two {
+    width: 40%;
+    float: right;
+}
+
+.proccess_two iframe {
+    width: 90%;
+    margin-left: 45px;
+    border-radius: 20px;
+}
+
+/*Learn how to proccess end*/
+/*About us start*/
+.about_us {
+    text-align: center
+}
+.us_button {
+    width: 150px;
+    min-height: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: grey;
+    background-color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid #BD2440;
+}
+.us_button:focus {
+    outline: 0;
+}
+.us_button:hover {
+    background-color: #BD2440;
+    color: white;
+}
+.us_p {
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #BD2440;
+    word-spacing: 1px;
+}
+/*About us end*/
+/*footer css start*/
+.footer {
+    background-color: #BD2440;
+    min-height: 50px;
+}
+.left_item {
+    float: left;
+}
+.left_item ul {
+    overflow: hidden;
+}
+.left_item ul li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+.left_item ul li a{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.right_item {
+    float: right;
+    padding-right: 40px;
+}
+.right_item p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+/*footer css  end*/
+
+
+
